@@ -39,6 +39,15 @@ class HomePage extends StatelessWidget {
             color: Colors.red,
             width: 200,
             height: 200,
+          ),
+          Row(
+            mainAxisAlignment:  MainAxisAlignment.end,
+            children: [
+              Text("안녕",)
+            ],
+          ),
+          Align(
+            child: Text("안녕"),
           )
         ],
       ),
